@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>exo1</title>
-        <link href="exo1.css" rel="stylesheet">
+        <link href="main.css" rel="stylesheet">
     </head>
     <body>
 <title>Exo1</title>
