@@ -11,7 +11,7 @@
 <body>
 <?php
     $a = array(
-    'Nom' => 'Boulanger',
+    'Nom' => 'Odrzywolek',
     'Prenom' => 'Ryan', 
     'MDP' => 'yes',);
     echo "Nom : ".$a['Nom']." ; ";
