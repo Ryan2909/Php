@@ -1,24 +1,30 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Exo2,1</title>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>EXO 2.1 php</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src='main.js'></script>
 </head>
 <body>
-    <h1>Exo2</h1>
-    <a href="./">Revenir en arriere<a>
 <?php 
-/*
- * Ceci est un tableau avec des données que nous voulons modifier
- * au long de la boucle
- */
-    $Tableau = array("1,2,3,4,5");
-    
-
-
-
-
-
-highlight_file(__FILE__);
+    $a = array(3,5,9,15,1);
+    for ($i=0;$i<=3;$i++)
+    {
+        echo "$a[$i],";
+    }
+    echo "$a[4]";
 ?>
+<table>
+    <tr>
+    <?php for ($i=0;$i<=4;$i++)
+    {
+        echo '<td>'.$a[$i].'</td>';
+    }
+    ?>
+    </tr>
+</table>
 </body>
 </html>
