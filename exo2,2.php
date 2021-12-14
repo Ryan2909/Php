@@ -1,23 +1,22 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<!DOCTYPE html>
 <html>
- <head>
-  <title>Exo2,2</title>
-  <link href=".css" rel="stylesheet">
- </head>
-    <body>
-        <h1>Exo2,2</h1>
-            <a href="./">Revenir en arriere<a>
-        <?php
-            $tableau = array(
-                 "Ryan" => "Odk",
-                 "Odk" => "Ryan",
-         );
-        //utilisant la syntaxe de tableau courte
-             $array = [
-                 "Ryan" => "Odk",
-                 "Odk" => "Ryan",
-         ];
-         highlight_file(__FILE__);
-         ?>
-    </body>
-    </html>    
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>EXO 2.2 php</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src='main.js'></script>
+</head>
+<body>
+<?php
+    $a = array(
+    'Nom' => 'Boulanger',
+    'Prenom' => 'Ryan', 
+    'MDP' => 'yes',);
+    echo "Nom : ".$a['Nom']." ; ";
+    echo "Prenom : ".$a['Prenom']." ; ";
+    echo "Mot de passe : ".$a['MDP'];
+?>
+</body>
+</html>
